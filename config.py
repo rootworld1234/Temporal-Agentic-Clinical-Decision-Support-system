@@ -9,7 +9,7 @@ Improvements over prototype:
 """
 
 # ── Gemini API ─────────────────────────────────────────────────────────────────
-GEMINI_API_KEY = "AIzaSyAjWvuoaSHRYEoBAlon32ZBi9S2OUqcYi8"
+GEMINI_API_KEY = "ENTER_YOUR_GOOGLE_API_KEY_HERE"
 GEMINI_MODEL   = "gemini-2.5-flash"
 FREE_TIER_RPM  = 15
 FREE_TIER_RPD  = 1500
