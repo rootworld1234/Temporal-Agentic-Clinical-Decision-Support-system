@@ -141,7 +141,7 @@ Clinical thresholds for all 11 features and the 9 safety rules are also defined 
 
 **LM Studio must be started manually.** Opening the LM Studio app does not start the server. Go to the Local Server tab and click Start Server, and ensure a model is loaded there before running the pipeline.
 
-**Gemini key is committed to config.py.** Before sharing or publishing this project, move the key to an environment variable:
+**Gemini key is committed to config.py.** 
 ```python
 import os
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
